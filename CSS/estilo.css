@@ -29,7 +29,8 @@ header {
 
 header picture img {
 
-    height: 6rem;
+    height: 9rem;
+    margin: 0 1rem;
    
 }
  header nav {
@@ -43,6 +44,7 @@ header picture img {
        list-style-type: none ;
        display: flex;
        align-items: center;
+       background-color: var(--primary);
    }
    header ul li {
        margin:  0 1rem;
@@ -53,17 +55,50 @@ header picture img {
      color: var(--primary);
    }
 
+      body picture img.principal{
+
+        height:  30rem;
+       
+    
+
+
+   }
+
+body picture img.segunda{
+
+    align-items: center;
+    margin: 0 55rem;
+    
+
+
+
+}
+
+  body picture img.terceira{
+
+    margin: 0 30rem;
+
+
+  }
+
+
+
+   body {
+
+    background-color: var(--primary);
+   }
+
      main {
 
-        min-height: 80vh;
+        min-height: 90vh;
      }
 
    footer {
 
     background-color: var(--secundary);
-    height: 4rem;
     display: flex;
     align-items: center;
+    
    }
 
    footer > div {
@@ -76,6 +111,6 @@ header picture img {
 
       width: 100%;
       max-width: 1372px;
-      margin: 0 auto;
+     
    }
  
