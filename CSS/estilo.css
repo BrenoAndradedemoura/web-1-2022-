@@ -21,81 +21,72 @@ font-weight: 400;
 header {
 
     display: flex;
-    border-bottom: 0.5rem solid var(--secondary);
-    background-color: var(--primary);
-
-
+    border-bottom: 2.0rem solid var(--secundary);
+    height: 12rem;
+    justify-content: center;
 }
-
-header picture img {
-
-    height: 9rem;
-    margin: 0 1rem;
-   
+header picture {
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
- header nav {
-     width: 100%;
-     display: flex;
-     justify-content: flex-end;
-
-
- }
-   header nav ul {
-       list-style-type: none ;
-       display: flex;
-       align-items: center;
-       background-color: var(--primary);
-   }
-   header ul li {
-       margin:  0 1rem;
-   }
-   header ul li a {
-
-    text-decoration: none;
-     color: var(--primary);
-   }
-
-      body picture img.principal{
-
-        height:  30rem;
-       
-    
-
-
-   }
-
-body picture img.segunda{
-
-    align-items: center;
-    margin: 0 55rem;
-    
-
-
-
+header picture img{
+  margin: 0 auto;
 }
+header nav ul{
 
-  body picture img.terceira{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+  header nav ul li{
 
-    margin: 0 30rem;
-
-
+    margin: 0 1.5rem;
   }
 
+  header nav ul li a{
 
-
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#ffffff;
+  }
    body {
 
     background-color: var(--primary);
    }
+   main{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 20PX;
 
-     main {
+   }
 
-        min-height: 90vh;
+  main div{
+    display: flex;
+    flex-direction: row;
+  }
+
+     main div h1{
+
+      font-size: 60px;
+      margin: 0 3rem;
+      color: #C4C4C4;
+
      }
+     main div div{
+       flex-direction: column;
+     }
+     main >img{
+       width: 400px;
+       margin: 20px;
+     }
+    
 
    footer {
 
     background-color: var(--secundary);
+    height: 4rem;
     display: flex;
     align-items: center;
     
